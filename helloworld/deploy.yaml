@@ -20,7 +20,7 @@ metadata:
   labels:
     app: hello
 spec:
-  replicas: 3 # {"description":"reason","type":"integer","x-kustomize":{"setBy":"pwittrock","setter":{"name":"replicas","value":"3"}}}
+  replicas: 7 # {"description":"reason","type":"integer","x-kustomize":{"setBy":"pwittrock","setter":{"name":"replicas","value":"7"}}}
   selector:
     matchLabels:
       app: hello
